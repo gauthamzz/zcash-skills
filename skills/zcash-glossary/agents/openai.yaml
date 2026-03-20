@@ -1,0 +1,4 @@
+interface:
+  display_name: "Zcash Glossary"
+  short_description: "Define Zcash terms consistently and clearly"
+  default_prompt: "Use $zcash-glossary to explain these Zcash terms with precise, plain-language definitions."

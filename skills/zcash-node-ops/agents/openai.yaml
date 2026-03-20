@@ -1,0 +1,4 @@
+interface:
+  display_name: "Zcash Node Ops"
+  short_description: "Operate, sync, and troubleshoot Zcash nodes"
+  default_prompt: "Use $zcash-node-ops to help with this Zcash node setup or troubleshooting task."

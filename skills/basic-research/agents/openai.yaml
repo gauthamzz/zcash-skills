@@ -1,0 +1,4 @@
+interface:
+  display_name: "Basic Research"
+  short_description: "Research claims, compare sources, and cite well"
+  default_prompt: "Use $basic-research to investigate this topic, compare sources, and answer concisely."

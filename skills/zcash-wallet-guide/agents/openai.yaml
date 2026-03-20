@@ -1,0 +1,4 @@
+interface:
+  display_name: "Zcash Wallet Guide"
+  short_description: "Guide wallet setup, privacy habits, and use"
+  default_prompt: "Use $zcash-wallet-guide to help with this Zcash wallet task and explain privacy tradeoffs."

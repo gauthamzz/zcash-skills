@@ -1,0 +1,4 @@
+interface:
+  display_name: "Zcash Protocol Explainer"
+  short_description: "Explain protocol design and shielded mechanics"
+  default_prompt: "Use $zcash-protocol-explainer to explain this Zcash protocol topic at technical depth."

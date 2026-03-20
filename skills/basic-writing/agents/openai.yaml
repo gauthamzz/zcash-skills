@@ -1,0 +1,4 @@
+interface:
+  display_name: "Basic Writing"
+  short_description: "Draft and polish clear technical writing"
+  default_prompt: "Use $basic-writing to draft or revise this text for clarity and structure."
