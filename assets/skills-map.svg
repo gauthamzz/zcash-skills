@@ -1,7 +1,7 @@
-<svg width="1600" height="1120" viewBox="0 0 1600 1120" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1600" height="1120" rx="32" fill="#090909"/>
+<svg width="1600" height="1280" viewBox="0 0 1600 1280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1280" rx="32" fill="#090909"/>
   <text x="86" y="106" fill="#F6D16A" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="700">Skill map</text>
-  <text x="86" y="152" fill="#A89A80" font-family="Arial, Helvetica, sans-serif" font-size="24">Six public skills, each aimed at a real Zcash agent workflow</text>
+  <text x="86" y="152" fill="#A89A80" font-family="Arial, Helvetica, sans-serif" font-size="24">Seven public skills, centered on real Zcash transfer, wallet, node, and integration workflows</text>
   <g stroke="#2A2418">
     <rect x="90" y="220" width="440" height="260" rx="24" fill="#111111"/>
     <rect x="580" y="220" width="440" height="260" rx="24" fill="#111111"/>
@@ -9,6 +9,7 @@
     <rect x="335" y="560" width="440" height="260" rx="24" fill="#111111"/>
     <rect x="825" y="560" width="440" height="260" rx="24" fill="#111111"/>
     <rect x="580" y="860" width="440" height="180" rx="24" fill="#111111"/>
+    <rect x="335" y="1080" width="930" height="140" rx="24" fill="#111111"/>
   </g>
   <text x="128" y="286" fill="#F5E7C6" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Light wallet backend</text>
   <text x="128" y="334" fill="#C6B08A" font-family="Arial, Helvetica, sans-serif" font-size="26">$building-with-lightwalletd</text>
@@ -34,4 +35,7 @@
   <text x="618" y="978" fill="#C6B08A" font-family="Arial, Helvetica, sans-serif" font-size="26">$swapping-into-zcash</text>
   <text x="618" y="1016" fill="#8C816A" font-family="Arial, Helvetica, sans-serif" font-size="20">Quote, deposit, execution, refund,</text>
   <text x="618" y="1046" fill="#8C816A" font-family="Arial, Helvetica, sans-serif" font-size="20">NEAR Intents and Zodl-style swap flows.</text>
+  <text x="380" y="1140" fill="#F5E7C6" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Main transfer use case</text>
+  <text x="380" y="1186" fill="#C6B08A" font-family="Arial, Helvetica, sans-serif" font-size="28">$private-cross-chain-transfer</text>
+  <text x="820" y="1186" fill="#8C816A" font-family="Arial, Helvetica, sans-serif" font-size="22">Solana/Base wallet -> ZEC privacy leg -> destination wallet</text>
 </svg>

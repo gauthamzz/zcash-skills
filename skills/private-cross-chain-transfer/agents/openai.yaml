@@ -1,0 +1,4 @@
+interface:
+  display_name: "Private Cross-Chain Transfer"
+  short_description: "Route wallet-to-wallet privacy flows"
+  default_prompt: "Use $private-cross-chain-transfer to design or explain this wallet-to-wallet route through a Zcash privacy leg."

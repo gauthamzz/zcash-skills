@@ -35,6 +35,7 @@ The structure is Codex-native first, but the presentation is meant to feel like 
 | --- | --- |
 | `building-with-lightwalletd` | Build and debug light-wallet backends and SDK integrations |
 | `deploying-zcash-stack` | Deploy Kubernetes-based multi-service Zcash infrastructure |
+| `private-cross-chain-transfer` | Route wallet-to-wallet transfers through a Zcash privacy leg |
 | `swapping-into-zcash` | Design and support swap or cross-chain flows that land in ZEC |
 | `zcash-dev` | Build Zcash apps, services, wallet flows, RPC integrations, and developer tooling |
 | `zcash-node-ops` | Diagnose node install, sync, config, and runtime issues |
@@ -52,6 +53,7 @@ zcash-skills/
 └── skills/
     ├── building-with-lightwalletd/
     ├── deploying-zcash-stack/
+    ├── private-cross-chain-transfer/
     ├── swapping-into-zcash/
     ├── zcash-dev/
     ├── zcash-node-ops/
@@ -67,6 +69,7 @@ Examples:
 ```text
 Use $building-with-lightwalletd to set up a shielded light-wallet backend for mobile apps.
 Use $deploying-zcash-stack to plan a Kubernetes deployment of the Zcash ecosystem.
+Use $private-cross-chain-transfer to move value from a Solana or Base wallet through a Zcash privacy leg.
 Use $swapping-into-zcash to explain or build a swap flow that lands users in ZEC.
 Use $zcash-dev to help design this Zcash wallet or RPC integration.
 Use $zcash-wallet-support to help me receive ZEC with better privacy.
