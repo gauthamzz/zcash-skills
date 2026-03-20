@@ -1,0 +1,4 @@
+interface:
+  display_name: "Swapping Into Zcash"
+  short_description: "Design and support Zcash swap flows"
+  default_prompt: "Use $swapping-into-zcash to design or explain this swap flow into ZEC or shielded ZEC."

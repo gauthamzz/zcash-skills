@@ -35,6 +35,7 @@ The structure is Codex-native first, but the presentation is meant to feel like 
 | --- | --- |
 | `building-with-lightwalletd` | Build and debug light-wallet backends and SDK integrations |
 | `deploying-zcash-stack` | Deploy Kubernetes-based multi-service Zcash infrastructure |
+| `swapping-into-zcash` | Design and support swap or cross-chain flows that land in ZEC |
 | `zcash-dev` | Build Zcash apps, services, wallet flows, RPC integrations, and developer tooling |
 | `zcash-node-ops` | Diagnose node install, sync, config, and runtime issues |
 | `zcash-wallet-support` | Help users choose wallets, receive, send, back up, and avoid privacy mistakes |
@@ -51,6 +52,7 @@ zcash-skills/
 └── skills/
     ├── building-with-lightwalletd/
     ├── deploying-zcash-stack/
+    ├── swapping-into-zcash/
     ├── zcash-dev/
     ├── zcash-node-ops/
     └── zcash-wallet-support/
@@ -65,6 +67,7 @@ Examples:
 ```text
 Use $building-with-lightwalletd to set up a shielded light-wallet backend for mobile apps.
 Use $deploying-zcash-stack to plan a Kubernetes deployment of the Zcash ecosystem.
+Use $swapping-into-zcash to explain or build a swap flow that lands users in ZEC.
 Use $zcash-dev to help design this Zcash wallet or RPC integration.
 Use $zcash-wallet-support to help me receive ZEC with better privacy.
 Use $zcash-node-ops to debug why my node is stuck syncing.

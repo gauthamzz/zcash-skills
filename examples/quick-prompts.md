@@ -13,6 +13,12 @@ Use these as realistic examples of what should trigger each skill.
 - `Use $deploying-zcash-stack to plan a Kubernetes deployment of zcashd, Zebra, and lightwalletd.`
 - `Use $deploying-zcash-stack to explain when zcash-stack is the right choice instead of a single node.`
 
+## Swaps into Zcash
+
+- `Use $swapping-into-zcash to explain how to swap from ETH into ZEC.`
+- `Use $swapping-into-zcash to design a swap widget that lands users in shielded-capable Zcash wallet flows.`
+- `Use $swapping-into-zcash to explain how Zodl and NEAR Intents relate in a swap flow into Zcash.`
+
 ## Zcash development
 
 - `Use $zcash-dev to design a Zcash wallet integration for a web app.`

@@ -1,13 +1,14 @@
-<svg width="1600" height="960" viewBox="0 0 1600 960" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1600" height="960" rx="32" fill="#090909"/>
+<svg width="1600" height="1120" viewBox="0 0 1600 1120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1120" rx="32" fill="#090909"/>
   <text x="86" y="106" fill="#F6D16A" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="700">Skill map</text>
-  <text x="86" y="152" fill="#A89A80" font-family="Arial, Helvetica, sans-serif" font-size="24">Five public skills, each aimed at a real Zcash agent workflow</text>
+  <text x="86" y="152" fill="#A89A80" font-family="Arial, Helvetica, sans-serif" font-size="24">Six public skills, each aimed at a real Zcash agent workflow</text>
   <g stroke="#2A2418">
     <rect x="90" y="220" width="440" height="260" rx="24" fill="#111111"/>
     <rect x="580" y="220" width="440" height="260" rx="24" fill="#111111"/>
     <rect x="1070" y="220" width="440" height="260" rx="24" fill="#111111"/>
     <rect x="335" y="560" width="440" height="260" rx="24" fill="#111111"/>
     <rect x="825" y="560" width="440" height="260" rx="24" fill="#111111"/>
+    <rect x="580" y="860" width="440" height="180" rx="24" fill="#111111"/>
   </g>
   <text x="128" y="286" fill="#F5E7C6" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Light wallet backend</text>
   <text x="128" y="334" fill="#C6B08A" font-family="Arial, Helvetica, sans-serif" font-size="26">$building-with-lightwalletd</text>
@@ -29,4 +30,8 @@
   <text x="863" y="674" fill="#C6B08A" font-family="Arial, Helvetica, sans-serif" font-size="26">$zcash-wallet-support</text>
   <text x="863" y="718" fill="#8C816A" font-family="Arial, Helvetica, sans-serif" font-size="20">Receive, send, backup, Zodl,</text>
   <text x="863" y="748" fill="#8C816A" font-family="Arial, Helvetica, sans-serif" font-size="20">privacy caveats, user guidance.</text>
+  <text x="618" y="930" fill="#F5E7C6" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Swap into Zcash</text>
+  <text x="618" y="978" fill="#C6B08A" font-family="Arial, Helvetica, sans-serif" font-size="26">$swapping-into-zcash</text>
+  <text x="618" y="1016" fill="#8C816A" font-family="Arial, Helvetica, sans-serif" font-size="20">Quote, deposit, execution, refund,</text>
+  <text x="618" y="1046" fill="#8C816A" font-family="Arial, Helvetica, sans-serif" font-size="20">NEAR Intents and Zodl-style swap flows.</text>
 </svg>
