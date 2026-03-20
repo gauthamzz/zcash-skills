@@ -1,0 +1,21 @@
+<svg width="1600" height="640" viewBox="0 0 1600 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="640" rx="32" fill="#0A0A0A"/>
+  <path d="M330 320C330 216.171 414.171 132 518 132H1082C1185.83 132 1270 216.171 1270 320C1270 423.829 1185.83 508 1082 508H518C414.171 508 330 423.829 330 320Z" stroke="#2E2619" stroke-width="2"/>
+  <circle cx="520" cy="320" r="94" fill="#111111" stroke="#7D5B18"/>
+  <circle cx="800" cy="320" r="94" fill="#111111" stroke="#7D5B18"/>
+  <circle cx="1080" cy="320" r="94" fill="#111111" stroke="#7D5B18"/>
+  <text x="474" y="312" fill="#F4E8CB" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">ROUTE</text>
+  <text x="446" y="352" fill="#BBAA87" font-family="Arial, Helvetica, sans-serif" font-size="18">Pick the right skill</text>
+  <text x="728" y="312" fill="#F4E8CB" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">WORK</text>
+  <text x="706" y="352" fill="#BBAA87" font-family="Arial, Helvetica, sans-serif" font-size="18">Use refs and examples</text>
+  <text x="1003" y="312" fill="#F4E8CB" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">WRITE</text>
+  <text x="995" y="352" fill="#BBAA87" font-family="Arial, Helvetica, sans-serif" font-size="18">Return a clean answer</text>
+  <path d="M620 320H700" stroke="#F7D46B" stroke-width="8" stroke-linecap="round"/>
+  <path d="M900 320H980" stroke="#F7D46B" stroke-width="8" stroke-linecap="round"/>
+  <path d="M698 320L676 302" stroke="#F7D46B" stroke-width="8" stroke-linecap="round"/>
+  <path d="M698 320L676 338" stroke="#F7D46B" stroke-width="8" stroke-linecap="round"/>
+  <path d="M978 320L956 302" stroke="#F7D46B" stroke-width="8" stroke-linecap="round"/>
+  <path d="M978 320L956 338" stroke="#F7D46B" stroke-width="8" stroke-linecap="round"/>
+  <text x="72" y="112" fill="#F6D16A" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700">Agent loop</text>
+  <text x="72" y="156" fill="#9C8E73" font-family="Arial, Helvetica, sans-serif" font-size="24">This repo is designed around concrete workflows rather than abstract topic buckets.</text>
+</svg>

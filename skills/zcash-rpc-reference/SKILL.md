@@ -1,85 +1,38 @@
 ---
 name: zcash-rpc-reference
-description: [TODO: Complete and informative explanation of what the skill does and when to use it. Include WHEN to use this skill - specific scenarios, file types, or tasks that trigger it.]
+description: Map Zcash tasks to the right RPC methods and method families. Use when Codex needs to translate an operator or wallet goal into likely `zcash-cli` or JSON-RPC usage, identify the relevant method family, or explain common RPC caveats around chain state, wallet state, addresses, transactions, and node administration.
 ---
 
-# Zcash Rpc Reference
+# Zcash RPC Reference
 
-## Overview
+Turn intent into the likely method path.
 
-[TODO: 1-2 sentences explaining what this skill enables]
+## What this skill does
 
-## Structuring This Skill
+- map tasks to RPC families
+- explain method choice at a practical level
+- surface likely prerequisites and gotchas
+- stop the agent from spraying random commands
 
-[TODO: Choose the structure that best fits this skill's purpose. Common patterns:
+## Example requests
 
-**1. Workflow-Based** (best for sequential processes)
-- Works well when there are clear step-by-step procedures
-- Example: DOCX skill with "Workflow Decision Tree" -> "Reading" -> "Creating" -> "Editing"
-- Structure: ## Overview -> ## Workflow Decision Tree -> ## Step 1 -> ## Step 2...
+- "Which RPC should I use to inspect chain progress?"
+- "How do I map address balance checks to Zcash RPC?"
+- "What should I call to inspect peers or mempool state?"
 
-**2. Task-Based** (best for tool collections)
-- Works well when the skill offers different operations/capabilities
-- Example: PDF skill with "Quick Start" -> "Merge PDFs" -> "Split PDFs" -> "Extract Text"
-- Structure: ## Overview -> ## Quick Start -> ## Task Category 1 -> ## Task Category 2...
+## Working style
 
-**3. Reference/Guidelines** (best for standards or specifications)
-- Works well for brand guidelines, coding standards, or requirements
-- Example: Brand styling with "Brand Guidelines" -> "Colors" -> "Typography" -> "Features"
-- Structure: ## Overview -> ## Guidelines -> ## Specifications -> ## Usage...
+1. Restate the job in operational terms.
+2. Identify the likely method or small method set.
+3. State prerequisites.
+4. State one or two caveats.
 
-**4. Capabilities-Based** (best for integrated systems)
-- Works well when the skill provides multiple interrelated features
-- Example: Product Management with "Core Capabilities" -> numbered capability list
-- Structure: ## Overview -> ## Core Capabilities -> ### 1. Feature -> ### 2. Feature...
+## Guardrails
 
-Patterns can be mixed and matched as needed. Most skills combine patterns (e.g., start with task-based, add workflow for complex operations).
+- Do not fake exact field-level output when version details matter.
+- Route protocol explanations to `../zcash-protocol-explainer/`.
+- Route runtime diagnosis to `../zcash-node-ops/`.
 
-Delete this entire "Structuring This Skill" section when done - it's just guidance.]
+## References
 
-## [TODO: Replace with the first main section based on chosen structure]
-
-[TODO: Add content here. See examples in existing skills:
-- Code samples for technical skills
-- Decision trees for complex workflows
-- Concrete examples with realistic user requests
-- References to scripts/templates/references as needed]
-
-## Resources (optional)
-
-Create only the resource directories this skill actually needs. Delete this section if no resources are required.
-
-### scripts/
-Executable code (Python/Bash/etc.) that can be run directly to perform specific operations.
-
-**Examples from other skills:**
-- PDF skill: `fill_fillable_fields.py`, `extract_form_field_info.py` - utilities for PDF manipulation
-- DOCX skill: `document.py`, `utilities.py` - Python modules for document processing
-
-**Appropriate for:** Python scripts, shell scripts, or any executable code that performs automation, data processing, or specific operations.
-
-**Note:** Scripts may be executed without loading into context, but can still be read by Codex for patching or environment adjustments.
-
-### references/
-Documentation and reference material intended to be loaded into context to inform Codex's process and thinking.
-
-**Examples from other skills:**
-- Product management: `communication.md`, `context_building.md` - detailed workflow guides
-- BigQuery: API reference documentation and query examples
-- Finance: Schema documentation, company policies
-
-**Appropriate for:** In-depth documentation, API references, database schemas, comprehensive guides, or any detailed information that Codex should reference while working.
-
-### assets/
-Files not intended to be loaded into context, but rather used within the output Codex produces.
-
-**Examples from other skills:**
-- Brand styling: PowerPoint template files (.pptx), logo files
-- Frontend builder: HTML/React boilerplate project directories
-- Typography: Font files (.ttf, .woff2)
-
-**Appropriate for:** Templates, boilerplate code, document templates, images, icons, fonts, or any files meant to be copied or used in the final output.
-
----
-
-**Not every skill requires all three types of resources.**
+- Read `references/task-map.md` for common task-to-method patterns.
