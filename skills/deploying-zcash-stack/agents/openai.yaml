@@ -1,0 +1,4 @@
+interface:
+  display_name: "Deploying Zcash Stack"
+  short_description: "Deploy multi-service Zcash infrastructure"
+  default_prompt: "Use $deploying-zcash-stack to plan or debug this Kubernetes-based Zcash stack deployment."

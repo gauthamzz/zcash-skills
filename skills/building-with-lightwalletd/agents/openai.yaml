@@ -1,0 +1,4 @@
+interface:
+  display_name: "Building With lightwalletd"
+  short_description: "Integrate Zcash light-wallet backends"
+  default_prompt: "Use $building-with-lightwalletd to design or debug this Zcash light-wallet backend or SDK flow."

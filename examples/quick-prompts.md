@@ -2,6 +2,17 @@
 
 Use these as realistic examples of what should trigger each skill.
 
+## lightwalletd
+
+- `Use $building-with-lightwalletd to set up lightwalletd on top of zcashd for wallet development.`
+- `Use $building-with-lightwalletd to explain how the Android SDK and lightwalletd fit together.`
+- `Use $building-with-lightwalletd to debug a shielded light-wallet backend issue.`
+
+## Zcash stack
+
+- `Use $deploying-zcash-stack to plan a Kubernetes deployment of zcashd, Zebra, and lightwalletd.`
+- `Use $deploying-zcash-stack to explain when zcash-stack is the right choice instead of a single node.`
+
 ## Zcash development
 
 - `Use $zcash-dev to design a Zcash wallet integration for a web app.`

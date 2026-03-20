@@ -8,6 +8,13 @@ The catalog is intentionally small. It keeps only the skills an agent is most li
 - operate and debug Zcash nodes
 - help users with wallets, receiving, sending, and privacy tradeoffs
 
+The reference data in these skills is grounded in:
+
+- official Zcash docs and the `zcashd` book
+- the Zebra book and RPC docs
+- `zcash/zcash`, `zcash/lightwalletd`, and the wallet SDK repos
+- current wallet-product material from Zodl where it changes user-facing guidance
+
 ![Zcash Skills Banner](./assets/banner.svg)
 
 ## Why this repo exists
@@ -26,6 +33,8 @@ The structure is Codex-native first, but the presentation is meant to feel like 
 
 | Skill | Agent job |
 | --- | --- |
+| `building-with-lightwalletd` | Build and debug light-wallet backends and SDK integrations |
+| `deploying-zcash-stack` | Deploy Kubernetes-based multi-service Zcash infrastructure |
 | `zcash-dev` | Build Zcash apps, services, wallet flows, RPC integrations, and developer tooling |
 | `zcash-node-ops` | Diagnose node install, sync, config, and runtime issues |
 | `zcash-wallet-support` | Help users choose wallets, receive, send, back up, and avoid privacy mistakes |
@@ -40,6 +49,8 @@ zcash-skills/
 ├── assets/
 ├── examples/
 └── skills/
+    ├── building-with-lightwalletd/
+    ├── deploying-zcash-stack/
     ├── zcash-dev/
     ├── zcash-node-ops/
     └── zcash-wallet-support/
@@ -52,6 +63,8 @@ Copy or install the skill folders into a Codex-discoverable skills directory, th
 Examples:
 
 ```text
+Use $building-with-lightwalletd to set up a shielded light-wallet backend for mobile apps.
+Use $deploying-zcash-stack to plan a Kubernetes deployment of the Zcash ecosystem.
 Use $zcash-dev to help design this Zcash wallet or RPC integration.
 Use $zcash-wallet-support to help me receive ZEC with better privacy.
 Use $zcash-node-ops to debug why my node is stuck syncing.
