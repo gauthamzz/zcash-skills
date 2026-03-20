@@ -1,16 +1,12 @@
 # zcash-skills
 
-Public skill pack for agents working on Zcash tasks.
+Focused public skill pack for agents working on real Zcash jobs.
 
-It is built for the things agents actually need to do:
+The catalog is intentionally small. It keeps only the skills an agent is most likely to reach for in practice:
 
-- explain Zcash clearly
-- route questions to the right depth
-- help with wallets and privacy habits
-- troubleshoot nodes
-- map goals to RPC methods
-- orient users across the ecosystem
-- research and write clean answers
+- build Zcash apps and integrations
+- operate and debug Zcash nodes
+- help users with wallets, receiving, sending, and privacy tradeoffs
 
 ![Zcash Skills Banner](./assets/banner.svg)
 
@@ -30,16 +26,9 @@ The structure is Codex-native first, but the presentation is meant to feel like 
 
 | Skill | Agent job |
 | --- | --- |
-| `zcash-overview` | Triage a request and route it to the best next skill |
-| `zcash-glossary` | Define Zcash terms fast and cleanly |
-| `zcash-beginners` | Teach privacy basics without jargon overload |
-| `zcash-wallet-guide` | Help users choose wallets, receive, send, and avoid bad habits |
-| `zcash-protocol-explainer` | Explain shielded pools, upgrades, and protocol mechanics |
+| `zcash-dev` | Build Zcash apps, services, wallet flows, RPC integrations, and developer tooling |
 | `zcash-node-ops` | Diagnose node install, sync, config, and runtime issues |
-| `zcash-rpc-reference` | Turn goals into likely RPC methods and caveats |
-| `zcash-ecosystem-map` | Explain orgs, projects, grants, and ecosystem structure |
-| `basic-research` | Gather and compare sources before answering |
-| `basic-writing` | Turn raw facts into clean, readable output |
+| `zcash-wallet-support` | Help users choose wallets, receive, send, back up, and avoid privacy mistakes |
 
 ![Skills Map](./assets/skills-map.svg)
 
@@ -51,16 +40,9 @@ zcash-skills/
 ├── assets/
 ├── examples/
 └── skills/
-    ├── basic-research/
-    ├── basic-writing/
-    ├── zcash-beginners/
-    ├── zcash-ecosystem-map/
-    ├── zcash-glossary/
+    ├── zcash-dev/
     ├── zcash-node-ops/
-    ├── zcash-overview/
-    ├── zcash-protocol-explainer/
-    ├── zcash-rpc-reference/
-    └── zcash-wallet-guide/
+    └── zcash-wallet-support/
 ```
 
 ## Quick start
@@ -70,10 +52,9 @@ Copy or install the skill folders into a Codex-discoverable skills directory, th
 Examples:
 
 ```text
-Use $zcash-overview to route this question before answering.
-Use $zcash-wallet-guide to help me receive ZEC with better privacy.
+Use $zcash-dev to help design this Zcash wallet or RPC integration.
+Use $zcash-wallet-support to help me receive ZEC with better privacy.
 Use $zcash-node-ops to debug why my node is stuck syncing.
-Use $zcash-rpc-reference to map this monitoring task to the right RPC calls.
 ```
 
 See [quick-prompts.md](/Users/gauthamsanthosh/Polynomial/zcash/zcash-skills/examples/quick-prompts.md) for more example invocations.
@@ -84,12 +65,13 @@ See [quick-prompts.md](/Users/gauthamsanthosh/Polynomial/zcash/zcash-skills/exam
 - Move detail to `references/`.
 - Write descriptions as trigger logic, not marketing copy.
 - Prefer task language over abstract topic language.
+- Keep the catalog tight and developer-heavy.
 - Keep privacy, wallet, and ops guidance explicit about tradeoffs.
 
 ## Notes
 
-- This repo does not try to mirror a separate manifest protocol exactly.
-- It does try to look and feel like a serious public skills repo.
+- This repo does not try to be a giant topic index.
+- It is meant to feel closer to the tighter public skill repos you pointed at: fewer skills, stronger workflows, less filler.
 - The content is structured so another agent can use it immediately without guessing what the skill is for.
 
 ![Agent Loop](./assets/agent-loop.svg)

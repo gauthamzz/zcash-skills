@@ -1,0 +1,4 @@
+interface:
+  display_name: "Zcash Dev"
+  short_description: "Build Zcash apps, flows, and integrations"
+  default_prompt: "Use $zcash-dev to design or implement this Zcash product or integration."

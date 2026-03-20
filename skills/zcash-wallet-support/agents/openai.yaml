@@ -1,0 +1,4 @@
+interface:
+  display_name: "Zcash Wallet Support"
+  short_description: "Support Zcash wallet flows safely"
+  default_prompt: "Use $zcash-wallet-support to help with this Zcash wallet task and explain the key tradeoffs."

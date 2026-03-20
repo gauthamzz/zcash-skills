@@ -1,4 +1,0 @@
-interface:
-  display_name: "Zcash RPC Reference"
-  short_description: "Map tasks to practical Zcash RPC usage"
-  default_prompt: "Use $zcash-rpc-reference to map this task to the right Zcash RPC calls and caveats."

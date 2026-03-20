@@ -1,4 +1,0 @@
-interface:
-  display_name: "Zcash Beginners"
-  short_description: "Teach Zcash basics to first-time users"
-  default_prompt: "Use $zcash-beginners to answer this beginner Zcash question safely and clearly."

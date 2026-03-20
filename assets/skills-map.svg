@@ -1,37 +1,25 @@
-<svg width="1600" height="920" viewBox="0 0 1600 920" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1600" height="920" rx="32" fill="#090909"/>
+<svg width="1600" height="760" viewBox="0 0 1600 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="760" rx="32" fill="#090909"/>
   <text x="86" y="106" fill="#F6D16A" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="700">Skill map</text>
-  <text x="86" y="152" fill="#A89A80" font-family="Arial, Helvetica, sans-serif" font-size="24">What an agent reaches for depending on the job</text>
+  <text x="86" y="152" fill="#A89A80" font-family="Arial, Helvetica, sans-serif" font-size="24">Three public skills, each aimed at a real Zcash agent workflow</text>
   <g stroke="#2A2418">
-    <rect x="90" y="214" width="420" height="180" rx="22" fill="#111111"/>
-    <rect x="590" y="214" width="420" height="180" rx="22" fill="#111111"/>
-    <rect x="1090" y="214" width="420" height="180" rx="22" fill="#111111"/>
-    <rect x="90" y="454" width="420" height="180" rx="22" fill="#111111"/>
-    <rect x="590" y="454" width="420" height="180" rx="22" fill="#111111"/>
-    <rect x="1090" y="454" width="420" height="180" rx="22" fill="#111111"/>
-    <rect x="340" y="704" width="420" height="140" rx="22" fill="#111111"/>
-    <rect x="840" y="704" width="420" height="140" rx="22" fill="#111111"/>
+    <rect x="90" y="220" width="440" height="340" rx="24" fill="#111111"/>
+    <rect x="580" y="220" width="440" height="340" rx="24" fill="#111111"/>
+    <rect x="1070" y="220" width="440" height="340" rx="24" fill="#111111"/>
   </g>
-  <text x="128" y="272" fill="#F5E7C6" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Route</text>
-  <text x="128" y="320" fill="#C6B08A" font-family="Arial, Helvetica, sans-serif" font-size="24">$zcash-overview</text>
-  <text x="128" y="356" fill="#8C816A" font-family="Arial, Helvetica, sans-serif" font-size="20">Figure out what kind of Zcash task this is.</text>
-  <text x="628" y="272" fill="#F5E7C6" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Teach</text>
-  <text x="628" y="320" fill="#C6B08A" font-family="Arial, Helvetica, sans-serif" font-size="24">$zcash-beginners</text>
-  <text x="628" y="356" fill="#8C816A" font-family="Arial, Helvetica, sans-serif" font-size="20">Explain the basics without wrecking clarity.</text>
-  <text x="1128" y="272" fill="#F5E7C6" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Define</text>
-  <text x="1128" y="320" fill="#C6B08A" font-family="Arial, Helvetica, sans-serif" font-size="24">$zcash-glossary</text>
-  <text x="1128" y="356" fill="#8C816A" font-family="Arial, Helvetica, sans-serif" font-size="20">Untangle terms like Orchard, note, and nullifier.</text>
-  <text x="128" y="512" fill="#F5E7C6" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Operate</text>
-  <text x="128" y="560" fill="#C6B08A" font-family="Arial, Helvetica, sans-serif" font-size="24">$zcash-node-ops</text>
-  <text x="128" y="596" fill="#8C816A" font-family="Arial, Helvetica, sans-serif" font-size="20">Install, sync, inspect logs, fix runtime issues.</text>
-  <text x="628" y="512" fill="#F5E7C6" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Command</text>
-  <text x="628" y="560" fill="#C6B08A" font-family="Arial, Helvetica, sans-serif" font-size="24">$zcash-rpc-reference</text>
-  <text x="628" y="596" fill="#8C816A" font-family="Arial, Helvetica, sans-serif" font-size="20">Turn intent into likely RPC methods and caveats.</text>
-  <text x="1128" y="512" fill="#F5E7C6" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Explain internals</text>
-  <text x="1128" y="560" fill="#C6B08A" font-family="Arial, Helvetica, sans-serif" font-size="24">$zcash-protocol-explainer</text>
-  <text x="1128" y="596" fill="#8C816A" font-family="Arial, Helvetica, sans-serif" font-size="20">Shielded pools, upgrades, privacy mechanics.</text>
-  <text x="378" y="762" fill="#F5E7C6" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Research</text>
-  <text x="378" y="804" fill="#C6B08A" font-family="Arial, Helvetica, sans-serif" font-size="24">$basic-research</text>
-  <text x="878" y="762" fill="#F5E7C6" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Write</text>
-  <text x="878" y="804" fill="#C6B08A" font-family="Arial, Helvetica, sans-serif" font-size="24">$basic-writing</text>
+  <text x="128" y="290" fill="#F5E7C6" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700">Build</text>
+  <text x="128" y="340" fill="#C6B08A" font-family="Arial, Helvetica, sans-serif" font-size="28">$zcash-dev</text>
+  <text x="128" y="388" fill="#8C816A" font-family="Arial, Helvetica, sans-serif" font-size="21">Apps, services, wallet flows,</text>
+  <text x="128" y="420" fill="#8C816A" font-family="Arial, Helvetica, sans-serif" font-size="21">RPC integration, testing,</text>
+  <text x="128" y="452" fill="#8C816A" font-family="Arial, Helvetica, sans-serif" font-size="21">and Zcash developer architecture.</text>
+  <text x="618" y="290" fill="#F5E7C6" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700">Operate</text>
+  <text x="618" y="340" fill="#C6B08A" font-family="Arial, Helvetica, sans-serif" font-size="28">$zcash-node-ops</text>
+  <text x="618" y="388" fill="#8C816A" font-family="Arial, Helvetica, sans-serif" font-size="21">Install, run, inspect,</text>
+  <text x="618" y="420" fill="#8C816A" font-family="Arial, Helvetica, sans-serif" font-size="21">sync, log-debug, and recover</text>
+  <text x="618" y="452" fill="#8C816A" font-family="Arial, Helvetica, sans-serif" font-size="21">Zcash full nodes safely.</text>
+  <text x="1108" y="290" fill="#F5E7C6" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700">Support</text>
+  <text x="1108" y="340" fill="#C6B08A" font-family="Arial, Helvetica, sans-serif" font-size="28">$zcash-wallet-support</text>
+  <text x="1108" y="388" fill="#8C816A" font-family="Arial, Helvetica, sans-serif" font-size="21">Wallet choice, receiving, sending,</text>
+  <text x="1108" y="420" fill="#8C816A" font-family="Arial, Helvetica, sans-serif" font-size="21">address compatibility, backups,</text>
+  <text x="1108" y="452" fill="#8C816A" font-family="Arial, Helvetica, sans-serif" font-size="21">and user privacy gotchas.</text>
 </svg>

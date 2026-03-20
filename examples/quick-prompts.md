@@ -2,25 +2,20 @@
 
 Use these as realistic examples of what should trigger each skill.
 
-## Routing
+## Zcash development
 
-- `Use $zcash-overview to classify this request and tell me which Zcash skill to use next.`
-- `Use $zcash-overview to give me the short version first, then route me deeper.`
+- `Use $zcash-dev to design a Zcash wallet integration for a web app.`
+- `Use $zcash-dev to explain the right architecture for a service that reads chain state and submits transactions.`
+- `Use $zcash-dev to map this product requirement to Zcash RPC, address handling, and testing concerns.`
 
-## Education
+## Node operations
 
-- `Use $zcash-beginners to explain Zcash to a smart person who knows Bitcoin but not privacy tech.`
-- `Use $zcash-glossary to define Orchard, nullifier, witness, and unified address.`
-- `Use $zcash-protocol-explainer to explain what a shielded pool actually hides.`
-
-## Wallets and operations
-
-- `Use $zcash-wallet-guide to help me choose a wallet and explain privacy gotchas.`
 - `Use $zcash-node-ops to troubleshoot why zcashd has peers but no sync progress.`
-- `Use $zcash-rpc-reference to map address and balance checks to the right RPC methods.`
+- `Use $zcash-node-ops to tell me what to inspect before restarting or reindexing this node.`
+- `Use $zcash-node-ops to explain the safest debugging sequence for this daemon issue.`
 
-## Ecosystem and meta work
+## Wallet support
 
-- `Use $zcash-ecosystem-map to explain who builds what in Zcash right now.`
-- `Use $basic-research to compare sources before answering this claim about Zcash adoption.`
-- `Use $basic-writing to rewrite this draft into a cleaner public explanation.`
+- `Use $zcash-wallet-support to help me choose a wallet and explain privacy gotchas.`
+- `Use $zcash-wallet-support to explain the practical difference between receiving options and what I should verify before sending.`
+- `Use $zcash-wallet-support to give me a safer receive/send checklist for a normal user.`

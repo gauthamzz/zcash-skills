@@ -1,4 +1,0 @@
-interface:
-  display_name: "Zcash Ecosystem Map"
-  short_description: "Navigate the Zcash orgs, tools, and ecosystem"
-  default_prompt: "Use $zcash-ecosystem-map to orient this question within the Zcash ecosystem."
